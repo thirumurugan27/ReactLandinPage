@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.outhomepage {
+  background-image: url("/background1.jpg"); /* Adjust path as needed */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 90.6vh; /* Sets the height to 100% of the viewport height */
+  width: 100%; /* Sets the width to 100% of the viewport width */
+  /* display: flex; */
+  /* place-content: center; */
+  /* justify-content: center; */
+  justify-items: center;
+}
+
+.navbar {
+  height: 9.4vh;
+  max-width: 100%;
+  background-color:#fe5fa9 ;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding-top: 0.3vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left:29%;
+}
+
+.navbar li {
+  padding-left: 0;
+  display: inline-block;
+  font-size: 150%;
+}
+
+.navbar li button {
+  height: 7vh;
+  width: 19vh;
+  font-size: 100%;
+  font-weight: 300;
+  border-radius: 10px;
+  margin: 0%;
+  border: 0;
+  background-color: #fe5fa9;
+  color: white;
+}
+.navbar li button:hover
+{
+  background-color: white;
+  color: #fe5fa9;
+  zoom: 1.2;
+}
+.loginbutton
+{
+  width: ;
+}
+.companyname
+{
+  padding: 0%;
+  padding-left: 20px;
+  font-size: 380%;
+}
+.head
+{
+  padding-top: 5px;
+  font-size: 350%;
+  color: #1A1A40;
+  font-family: Georgia, serif;
+
+}
+.homepage
+{
+
+  position: absolute; /* Position it relative to the page */
+    top: 50%; /* Move it to the center vertically */
+    left: 5%; /* Adjust left position (change as needed) */
+    transform: translateY(-50%); /* Adjust for exact centering */
+    width: 53%; /* Adjust width as needed */
+    /* max-height: fit-content; */
+    height: 50%;
+    padding: 35px;
+    background-color:none; /* Change color if needed */
+    border-radius: 20px; /* Optional: rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);/* Optional: shadow effect */
+    backdrop-filter: blur(10px); /* Adjust intensity */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    border-radius: 40px;
+  
+}
+.homepage p{
+  
+  font-size: 200%;
+  padding-top: 17px;
+  color: #421021;
+  
+}
+.homepage button{
+  /* margin-top: 30px; */
+  height: 8vh;
+  width: 33vh;
+  font-weight: 600;
+  color: #1A1A40;
+  font-size: 250%;
+  border-radius: 50px;
+  margin-left: 30%;
+  background-color: #fe5fa9 ;
+  border: 0;
+  /* padding-bottom: 5px; */
+}
+.homepage button:hover
+{
+  background-color: aliceblue;
+  color: #421021;
+  border: 2px solid black;
+  transform: scale(1.1); /* Increases the size by 10% */
+    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.6); /* Adds a shadow effect */
+}
+
