@@ -10,7 +10,7 @@ html, body {
 }
 
 .outhomepage {
-  background-image: url("/background1.jpg"); /* Adjust path as needed */
+  background-image: url("/ReactLandinPage/background1.jpg"); /* Adjust path as needed */
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
