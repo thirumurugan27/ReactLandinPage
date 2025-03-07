@@ -12,12 +12,12 @@ const AppLayout = () => {
     <div>
         <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/aboutus" element={<Aboutus />} />
-        <Route path="/contactus" element={<Contactus />} />
-        <Route path="/services" element={<Service />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/ReactLandinPage" element={<Home />} />
+        <Route path="/ReactLandinPage/home" element={<Home />} />
+        <Route path="/ReactLandinPage/aboutus" element={<Aboutus />} />
+        <Route path="/ReactLandinPage/contactus" element={<Contactus />} />
+        <Route path="/ReactLandinPage/services" element={<Service />} />
+        <Route path="/ReactLandinPage/login" element={<Login />} />
       </Routes>
     </div>
   )
